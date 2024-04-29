@@ -94,18 +94,18 @@
 
 # Some insights from the Exploratory Data Analysis: 
 
-* No high positive correlations, but some skill appear to be needed in conjunct very often;
+* No high positive correlations, but some skills appear to be needed in conjunct very often;
 * Words like "experience" and "team" are very often written in job descriptions;
-* Company rating does not seems to affect the Salary offered;
-* Insurrance Carriers, Consulting and Computer Hardware/Software industries are the one that pay the most;
+* Company rating does not seem to affect the Salary offered;
+* Insurance Carriers, Consulting, and Computer Hardware/Software industries are the one that pay the most;
 * In the other hand, R&D, Enterprise Software and Engineering Services pay the least;
 * Companies that have 2 competitors in the area normally pay the highest salaries;
 * Company Revenue does not seem to affect Salary much;
-* Dist. of Columbia, California and Illinois are among the highest paying states, while New York, Colorado and Florida among the least;
-* If the Company is located in Dist. of Columbia, Massachusetts or California, the Average Salary is high, while Nebraska, Florida and Alabama not so much;
+* Dist. of Columbia, California, and Illinois are among the highest paying states, while New York, Colorado, and Florida among the least;
+* If the Company is located in Dist. of Columbia, Massachusetts or California, the Average Salary is high, while Nebraska, Florida, and Alabama not so much;
 * Company age does not seem to affect the salary, with the majority of the highest salaries being paid by companies with less than 100 years of existence;
 * Some skills when needed in a job seem to actually make the salary on average go down.
-&nbsp;
+
 # Model Building: 
 The Model Building part of the project had the following steps:
 
@@ -124,13 +124,13 @@ The Model Building part of the project had the following steps:
 The best model was <b>Random Forest</b> with a *Mean Absolute Error (Random Forest): 2038.3697536945808*. The second best was *(XGBoost + Random Forest): 2093.243452220597* and the third *(Lasso Regression + Random Forest): 2169.8340873515103*
 &nbsp;
 # Productionization
-Here, a flask API endpoint was built and hosted on a local webserver. The API endpoint takes in a request with a list of values(skills needed in this case) from a job listing and returns a predicted salary.
+Here, a flask API endpoint was built and hosted on a local webserver. The API endpoint takes in a request with a list of values (skills required in this case) from a job listing and returns a predicted salary.
 &nbsp;
 # How to use
 * Ensure that the required libraries are listed in a requirements.txt file. Install these libraries by running ```pip install -r requirements.txt```;
 * Open a prompt in your computer as administrator and move to the folder you copied the project to (you may want to create a virtual enviroment for that);
 * Run it with ```python app.py```;
-* Copy to provided URL in the prompt and paste in the your browser.
+* Copy to provided URL in the prompt and paste in your browser.
 &nbsp;
 # Developed by: 
   * [Felipe Roll - Linkedin](https://www.linkedin.com/in/felipe-roll)
