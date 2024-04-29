@@ -69,7 +69,7 @@
     * Drop rating column with negative values.
     &nbsp;
 # Data Collection & Exploratory Data Analysis:
-* Data was collected from [Kaggle](https://www.kaggle.com/datasets/nikhilbhathi/data-scientist-salary-us-glassdoor) 
+* Data were collected from [Kaggle](https://www.kaggle.com/datasets/nikhilbhathi/data-scientist-salary-us-glassdoor) 
 
 * The Exploratory Data Analysis took form in the following steps:
    - Looking at the correlation between numeric columns
@@ -124,15 +124,15 @@ The Model Building part of the project had the following steps:
 The best model was <b>Random Forest</b> with a *Mean Absolute Error (Random Forest): 2038.3697536945808*. The second best was *(XGBoost + Random Forest): 2093.243452220597* and the third *(Lasso Regression + Random Forest): 2169.8340873515103*
 &nbsp;
 # Productionization
-Here, a flask API endpoint was built and hosted on a local webserver. The API endpoint takes in a request with a list of values (skills required in this case) from a job listing and returns a predicted salary.
+Here, a flask API endpoint was built and hosted on a local web server. The API endpoint takes in a request with a list of values (skills required in this case) from a job listing and returns a predicted salary.
 &nbsp;
 # How to use
 * Ensure that the required libraries are listed in a requirements.txt file. Install these libraries by running ```pip install -r requirements.txt```;
 * Open a prompt in your computer as administrator and move to the folder you copied the project to (you may want to create a virtual enviroment for that);
 * Run it with ```python app.py```;
-* Copy to provided URL in the prompt and paste in your browser.
+* Copy the provided URL in the prompt and paste in your browser.
 &nbsp;
 # Developed by: 
-  * [Felipe Roll - Linkedin](https://www.linkedin.com/in/felipe-roll)
-  * [Felipe Roll - Github](https://github.com/FelipeLRoll)
+  * [Felipe Roll - LinkedIn](https://www.linkedin.com/in/felipe-roll)
+  * [Felipe Roll - GitHub](https://github.com/FelipeLRoll)
   * [Felipe Roll - Gmail](felipelroll@gmail.com)
