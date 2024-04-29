@@ -72,7 +72,7 @@
 * Data was collected from [Kaggle](https://www.kaggle.com/datasets/nikhilbhathi/data-scientist-salary-us-glassdoor) 
 
 * The Exploratory Data Analysis took form in the following steps:
-   - Looking at the correaltion between numeric columns
+   - Looking at the correlation between numeric columns
 
       ![Correlation](images/correlation.png "No big positive correlations")
 
